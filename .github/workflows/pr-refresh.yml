@@ -15,7 +15,7 @@ jobs:
         pull-request-branch: ["iac-scan", "vuln-scan"]
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
